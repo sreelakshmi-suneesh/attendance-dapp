@@ -1,0 +1,20 @@
+{
+  "name": "attendance-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^22.19.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.22.6",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.0"
+  }
+}

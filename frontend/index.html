@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance DApp | Blockchain Technology</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+      text-align: center;
+    }
+    .card {
+      width: 450px;
+      background: white;
+      margin: auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      margin-top: 0;
+      color: #444;
+    }
+    input {
+      padding: 10px;
+      width: 80%;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #999;
+    }
+    button {
+      padding: 10px 18px;
+      margin: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    #output {
+      margin-top: 20px;
+      background: #eee;
+      padding: 15px;
+      border-radius: 8px;
+      min-height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Attendance System</h1>
+  <p class="subtitle"><b>Subject:</b> Blockchain Technology</p>
+  <p id="currentDate"></p>
+
+  <button id="connectBtn">Connect Wallet</button>
+
+  <input type="text" id="nameInput" placeholder="Enter your name">
+
+  <button id="markBtn">Mark Attendance</button>
+  <button id="viewBtn">View Attendance</button>
+
+  <div id="output"></div>
+</div>
+
+<script type="module" src="index.js"></script>
+
+<script>
+  document.getElementById("currentDate").innerText =
+    "Date: " + new Date().toLocaleDateString();
+</script>
+
+</body>
+</html>
