@@ -69,3 +69,21 @@ Contract: Attendance.sol
 •	Tracks attendance count
 •	Stores student list
 •	Teacher-only view for full attendance
+
+## Screenshots
+
+### 🏠 Homepage
+![Homepage](./screenshots/homepage.png)
+
+### 🔗 Connecting Wallet
+![Connecting Wallet](./screenshots/connecting-wallet.png)
+
+### ✅ Wallet Connected
+![Wallet Connected](./screenshots/wallet-connected.png)
+
+### 📝 Marking Attendance
+![Marking Attendance](./screenshots/marking-attendance.png)
+
+### 👀 Viewing Attendance
+![Viewing Attendance](./screenshots/viewing-attendance.png)
+
